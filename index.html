@@ -3,60 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shot Maker - أدوات وموارد لصانعي المحتوى</title>
-    <link rel="stylesheet" href="style.css">
+    <title>TalkFluent - Daily English Conversation Tips</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <h1 class="logo">Shot Maker<br><span class="arabic-name">صانع اللقطة</span></h1>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>TalkFluent</h1>
+            </div>
             <ul class="nav-menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="tools.html">Tools</a></li>
+                <li><a href="tips.html">Daily Tips</a></li>
                 <li><a href="resources.html">Resources</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <main class="home-content">
+    <main>
         <section class="hero">
-            <h1>Welcome to Shot Maker</h1>
-            <p class="hero-subtitle">منصتك النهائية لأدوات إنشاء المحتوى والموارد والدليل لمساعدتك على تنمية جمهورك وتحسين مهاراتك.</p>
-            <a href="tools.html" class="cta-button">Start Here</a>
+            <h2>Welcome to TalkFluent!</h2>
+            <p>Daily tips to improve your English conversation skills and become fluent in everyday situations.</p>
+            <button onclick="showRandomTip()" class="cta-button">Get a Quick Tip</button>
         </section>
 
         <section class="features">
-            <h2>Featured Tools & Resources</h2>
+            <h3>What You'll Find Here</h3>
             <div class="feature-grid">
                 <div class="feature-card">
-                    <h3>🎯 Hashtag Generator</h3>
-                    <p>Generate trending hashtags for your content</p>
-                    <a href="tools.html#hashtag-generator">Try it now</a>
+                    <h4>💬 Daily Conversation Tips</h4>
+                    <p>Practical phrases and vocabulary for greetings, travel, work, shopping, and more.</p>
                 </div>
                 <div class="feature-card">
-                    <h3>💡 Title Ideas</h3>
-                    <p>Get creative title suggestions for your videos</p>
-                    <a href="tools.html#title-generator">Explore</a>
+                    <h4>📚 Learning Resources</h4>
+                    <p>Curated apps, websites, videos, and podcasts to accelerate your English learning.</p>
                 </div>
                 <div class="feature-card">
-                    <h3>🔍 Keyword Finder</h3>
-                    <p>Discover popular keywords for better SEO</p>
-                    <a href="tools.html#keyword-finder">Find keywords</a>
+                    <h4>🎯 Speaking Practice</h4>
+                    <p>Tips to improve your pronunciation, fluency, and confidence in conversations.</p>
                 </div>
-                <div class="feature-card">
-                    <h3>📝 Content Planner</h3>
-                    <p>Download our free content planning template</p>
-                    <a href="resources.html#content-planner">Get template</a>
+            </div>
+        </section>
+
+        <section class="latest-tips">
+            <h3>Latest Conversation Tips</h3>
+            <div class="tips-preview">
+                <div class="tip-card">
+                    <h4>Travel English Essentials</h4>
+                    <p>How to ask for directions, book hotels, and navigate airports in English.</p>
+                    <a href="tips.html#travel" class="read-more">Read More →</a>
+                </div>
+                <div class="tip-card">
+                    <h4>Workplace Communication</h4>
+                    <p>Professional phrases for meetings, emails, and office conversations.</p>
+                    <a href="tips.html#work" class="read-more">Read More →</a>
+                </div>
+                <div class="tip-card">
+                    <h4>Casual Chat Starters</h4>
+                    <p>Easy ways to start and maintain conversations with native speakers.</p>
+                    <a href="tips.html#casual" class="read-more">Read More →</a>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Shot Maker. جميع الحقوق محفوظة.</p>
+        <p>&copy; 2024 TalkFluent. Helping you speak English fluently, one conversation at a time.</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
+
