@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أدوات صانعي المحتوى - Shot Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">Shot Maker<br><span class="arabic-name">صانع الشوت</span></h1>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tools.html">Tools</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="tools-content">
+        <section class="page-header">
+            <h1>أدوات صانعي المحتوى</h1>
+            <p>أدوات مجانية لمساعدتك على إنشاء محتوى أفضل بشكل أسرع</p>
+        </section>
+
+        <section class="tools-grid">
+            <div class="tool-card" id="hashtag-generator">
+                <h3>🎯 Hashtag Generator</h3>
+                <p>Generate relevant hashtags for your social media posts</p>
+                <div class="tool-input">
+                    <input type="text" id="hashtag-input" placeholder="Enter topic (e.g., travel, food, tech)">
+                    <button onclick="generateHashtags()">Generate Hashtags</button>
+                </div>
+                <div id="hashtag-output" class="tool-output"></div>
+            </div>
+
+            <div class="tool-card" id="title-generator">
+                <h3>💡 Video Title Ideas</h3>
+                <p>Get creative title suggestions for your videos</p>
+                <div class="tool-input">
+                    <input type="text" id="title-input" placeholder="Enter your video topic">
+                    <button onclick="generateTitles()">Generate Titles</button>
+                </div>
+                <div id="title-output" class="tool-output"></div>
+            </div>
+
+            <div class="tool-card" id="keyword-finder">
+                <h3>🔍 Keyword Finder</h3>
+                <p>Find popular keywords for better content discovery</p>
+                <div class="tool-input">
+                    <input type="text" id="keyword-input" placeholder="Enter niche (e.g., cooking, gaming)">
+                    <button onclick="findKeywords()">Find Keywords</button>
+                </div>
+                <div id="keyword-output" class="tool-output"></div>
+            </div>
+
+            <div class="tool-card" id="content-planner">
+                <h3>📝 Content Planner</h3>
+                <p>Plan your content calendar with our free template</p>
+                <p>Download our PDF content planning template to organize your posts and videos.</p>
+                <a href="#" class="download-btn" onclick="downloadTemplate()">Download Template</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Shot Maker. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
